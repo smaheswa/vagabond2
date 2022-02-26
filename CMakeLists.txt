@@ -4,18 +4,17 @@ project(vagabond2 LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 11 CACHE STRING "C++ standard to use")
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+include(CTest)
+set(glm_path "/home/qms64511/myDevelopments/glm")
+set(gemmi_path "/home/qms64511/myDevelopments/gemmi")
 
+add_subdirectory(utils)
 add_subdirectory(core)
 
 
-#include the GLM directory - i have built it from source and install
-#directory has a CMakeConfig file which can also be used - try later
-include_directories(/home/qms64511/myDevelopments/glm/install/include/glm)
 # The main vagabond executable.
 add_executable(vagabond2 ${PROJECT_SOURCE_DIR}/hello.cpp)
-
-
-target_link_libraries(vagabond2 PRIVATE  libbond)        
+target_link_libraries(vagabond2 PRIVATE  libbond libpca libreader)        
 
 #Compilation settings
 if (CMAKE_CXX_COMPILER_ID MATCHES "GNU")

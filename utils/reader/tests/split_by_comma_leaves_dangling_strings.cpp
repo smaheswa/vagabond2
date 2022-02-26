@@ -16,11 +16,13 @@ int main()
 		getline(ss, substr, ',');
 		list.push_back(substr);
 	}
-	
-	if ((list.size() != 3) && (list[0] == ""))
+
+	if ((list.size() != 3) || (list[0] == ""))
 	{
 		return 1;
 	} else return 0;
+	//
+	//
 	/**
 	if (list.size() != 3)
 	{
