@@ -24,6 +24,7 @@
 #include <iostream>
 #include <sstream>
 #include <queue>
+#include <algorithm>
 
 BondSequence::BondSequence(BondSequenceHandler *handler)
 {

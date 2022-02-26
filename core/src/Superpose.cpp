@@ -17,7 +17,7 @@
 // Please email: vagabond @ hginn.co.uk for more details.
 
 #include "Superpose.h"
-#include "../utils/svd/PCA.h"
+#include "svd/include/PCA.h"
 #include <iostream>
 
 using namespace PCA;

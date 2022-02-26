@@ -21,7 +21,7 @@
 #include "Atom.h"
 #include "HasBondstraints.h"
 #include <vector>
-
+#include <thread>
 typedef Atom *AtomPtr;
 typedef std::vector<AtomPtr> AtomVector;
 

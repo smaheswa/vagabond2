@@ -1,7 +1,7 @@
 #ifndef __vagabond__Atom__
 #define __vagabond__Atom__
 
-#include "../utils/glm_import.h"
+#include "glm_import.h"
 #include "HasBondstraints.h"
 #include <mutex>
 #include <vector>

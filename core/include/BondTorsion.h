@@ -23,7 +23,7 @@ class AtomGroup;
 class Atom;
 
 #include "Bondstraint.h"
-#include "../utils/glm_import.h"
+#include "glm_import.h"
 #include <stdexcept>
 
 class BondTorsion : public Bondstraint

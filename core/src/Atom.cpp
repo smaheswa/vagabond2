@@ -4,7 +4,7 @@
 #include "BondLength.h"
 #include "BondAngle.h"
 #include "Chirality.h"
-#include "../utils/FileReader.h"
+#include "FileReader.h"
 
 Atom::Atom()
 {
@@ -46,11 +46,13 @@ void Atom::setElementSymbol(std::string ele)
 	{
 		throw std::runtime_error("Attempting to use empty element assignment");
 	}
+        
 	if (!is_str_alphabetical(ele))
 	{
 		throw std::runtime_error("Attempting to use non-alphabetical element "
 		                         + ele);
 	}
+        
 	_ele = ele;
 	to_upper(_ele);
 	trim(_ele);

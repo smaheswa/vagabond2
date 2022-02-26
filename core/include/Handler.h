@@ -25,6 +25,7 @@
 #include <vector>
 #include <queue>
 #include <thread>
+#include <cstring>
 
 class ThreadWorker;
 class BondSequence;

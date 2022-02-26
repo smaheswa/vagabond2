@@ -1,6 +1,6 @@
-#include "../SimpleBasis.h"
-#include "../BondTorsion.h"
-#include "../Atom.h"
+#include "SimpleBasis.h"
+#include "BondTorsion.h"
+#include "Atom.h"
 
 int main()
 {

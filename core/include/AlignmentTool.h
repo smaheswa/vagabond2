@@ -19,7 +19,7 @@
 #ifndef __vagabond__AlignmentTool__
 #define __vagabond__AlignmentTool__
 
-#include "../utils/glm_import.h"
+#include "glm_import.h"
 
 class AtomGroup;
 

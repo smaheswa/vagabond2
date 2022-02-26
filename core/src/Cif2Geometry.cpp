@@ -7,7 +7,7 @@
 #include "GeometryTable.h"
 #include "Atom.h"
 #include "AtomGroup.h"
-#include "../utils/glm_import.h"
+#include "glm_import.h"
 
 using namespace gemmi::cif;
 

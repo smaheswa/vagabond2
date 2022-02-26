@@ -23,6 +23,7 @@ class AtomGroup;
 class Atom;
 
 #include "Bondstraint.h"
+#include <thread>
 
 class BondAngle : public Bondstraint
 {

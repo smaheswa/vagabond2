@@ -3,7 +3,7 @@
 
 #include <string>
 #include <gemmi/cif.hpp>
-#include "../utils/FileReader.h"
+#include "FileReader.h"
 
 class Atom;
 class AtomGroup;

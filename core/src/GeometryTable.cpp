@@ -17,7 +17,7 @@
 // Please email: vagabond @ hginn.co.uk for more details.
 
 #include "GeometryTable.h"
-#include "../utils/FileReader.h"
+#include "FileReader.h"
 #include <iostream>
 
 GeometryTable::GeometryTable()

@@ -18,7 +18,7 @@
 
 #include "AtomGroup.h"
 #include "BondLength.h"
-#include "../utils/FileReader.h"
+#include "FileReader.h"
 #include "BondTorsion.h"
 #include "BondCalculator.h"
 #include "PositionRefinery.h"

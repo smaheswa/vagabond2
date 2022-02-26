@@ -20,8 +20,9 @@
 #define __vagabond__Superpose__
 
 #include <vector>
-#include "../utils/glm_import.h"
-#include "../utils/svd/PCA.h"
+#include "glm_import.h"
+#include "PCA.h"
+#include <thread>
 
 class Superpose
 {
